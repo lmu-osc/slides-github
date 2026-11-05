@@ -3,31 +3,35 @@ title: "Introduction to collaborative coding with GitHub"
 author: "Elizabeth Waterfield"
 date: "today"
 date-format: "DD/MM/YYYY"
-format: 
+format:
+  osc-brand-html:
+    toc: true
   revealjs:
-    css: ../../assets/slides-custom.css # looks for css file in root
+    css: assets/slides-custom.css
     footer: LMU Open Science Center
     slide-number: true
-    logo: ../../assets/logos/OSC_Logo.jpg  # Inserts logo in the bottom right corner (default)
+    logo: assets/logos/OSC_Logo.jpg # Inserts logo in the bottom right corner (default)
+    output-file: slides-github-revealjs.html
+    filters:
+      - timer
   pdf:
-    geometry: 
+    geometry:
       - top=30mm
       - left=30mm
-  pptx: default
+    output-file: slides-github.pdf
+  osc-brand-pptx:
+    output-file: slides-github.pptx
 
 revealjs-plugins:
   - tabset
 
-bibliography: ../../assets/references.bib
-csl: ../../assets/apa.csl
+bibliography: assets/references.bib
+csl: assets/apa.csl
 
 execute:
   echo: true
   eval: true
   engine: knitr
-
-filters: 
-  - timer
 ---
 
 ## Prerequisites

@@ -5,7 +5,7 @@ authors:
     given-names: "Elizabeth"
     affiliation: "LMU Open Science Center"
 title: "Introduction to collaborative coding with GitHub"
-version: 0.0.1
+version: v1.0.0
 date-released: 2026-11-05
 repository-code: "https://github.com/lmu-osc/slides-github"
 url: "https://lmu-osc.github.io/slides-github/"
